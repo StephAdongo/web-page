@@ -1,0 +1,45 @@
+.container{
+    background-color: #00bfff;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.hero{
+    flex-direction: row;
+    height: 50px;
+    width: 800px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style-type:none;
+    gap: 8px;
+}
+.title{
+    color: white;
+    font-weight: 550;
+    font-size: 24px;
+    height: 50px;
+    width: 130px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.log-in{
+    height:30px;
+    width: 60px;
+    color: white;
+}
+button{
+    height: 30px;
+    width: 60px;
+    border-radius: 50px;
+}
