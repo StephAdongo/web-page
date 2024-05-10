@@ -1,7 +1,7 @@
 .container{
     background-color: #00bfff;
     height: 400px;
-    width: 800px;
+    width: 900px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -9,7 +9,7 @@
 .hero{
     flex-direction: row;
     height: 50px;
-    width: 800px;
+    width: 900px;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -22,7 +22,7 @@ a{
 ul{
     display: flex;
     list-style-type:none;
-    gap: 8px;
+    gap: 16px;
 }
 .title{
     color: white;
@@ -31,15 +31,59 @@ ul{
     height: 50px;
     width: 130px;
     padding-top: 30px;
-    padding-left: 10px;
+    margin-left: 18px;
 }
 .log-in{
     height:30px;
     width: 60px;
     color: white;
+    margin-left: 26px;
 }
 button{
-    height: 30px;
-    width: 60px;
+    height: 40px;
+    width: 100px;
     border-radius: 50px;
+    border:2px  white;
+}
+.log-in{
+    color: white;
+    height: 20px;
+    width: 35px;
+    padding: 10px;
+    padding-left: 60px;
+}
+.quote{
+    color: #00bfff;
+    background-color: white;
+    font-weight: 400;
+    padding-right: 16px;
+}
+.main{
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    height: 80px;
+    width: 390px;
+    margin-left: 26px;
+}
+.info{
+   height: 120px;
+   width: 290px;
+   font-size: smaller;
+   color: white;
+   margin-left: 26px;
+}
+.quote2{
+    color: black;
+    background-color: orange;
+    font-weight: 400;
+    margin-left: 26px;
+}
+
+.quote3{
+    color: white;
+    font-weight: 400;
+    background-color: #00bfff;
+    border: 2px solid white;
+    margin-left: 10px;
 }
