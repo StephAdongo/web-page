@@ -22,7 +22,7 @@ a{
 ul{
     display: flex;
     list-style-type:none;
-    gap: 18px;
+    gap: 16px;
 }
 .title{
     color: white;
