@@ -24,6 +24,24 @@ ul{
     list-style-type:none;
     gap: 16px;
 }
+.active, ul li:hover {
+    background-color: antiquewhite;
+    border-radius: 4px;
+}
+.sub-products {
+    display: none;  
+}
+ul li:hover .sub-products {
+    display: block;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -6px;
+    background-color:#00bfff
+}
+ul li:hover .sub-products ul {
+    display: block;
+    margin: 10px;
+}
 .title{
     color: white;
     font-weight: 550;
@@ -65,6 +83,7 @@ button{
     height: 80px;
     width: 390px;
     margin-left: 26px;
+    margin-top: 10px;
 }
 .info{
    height: 120px;
@@ -78,6 +97,7 @@ button{
     background-color: orange;
     font-weight: 400;
     margin-left: 26px;
+    margin-top: 20px;
 }
 
 .quote3{
@@ -86,4 +106,14 @@ button{
     background-color: #00bfff;
     border: 2px solid white;
     margin-left: 10px;
+    margin-top: 20px;
+}
+
+.side{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    margin-bottom: 35px;
+    margin-left: 30px;
 }
