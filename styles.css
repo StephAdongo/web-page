@@ -28,7 +28,11 @@ ul{
     background-color: antiquewhite;
     border-radius: 4px;
 }
-.sub-products {
+.active-:hover {
+    background-color: antiquewhite;
+    
+}
+.sub-products,.sub-services, .sub-support, .sub-resources{
     display: none;  
 }
 ul li:hover .sub-products {
@@ -39,6 +43,39 @@ ul li:hover .sub-products {
     background-color:#00bfff
 }
 ul li:hover .sub-products ul {
+    display: block;
+    margin: 10px;
+}
+ul li:hover .sub-services {
+    display: block;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -6px;
+    background-color:#00bfff
+}
+ul li:hover .sub-services ul {
+    display: block;
+    margin: 10px;
+}
+ul li:hover .sub-support {
+    display: block;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -6px;
+    background-color:#00bfff
+}
+ul li:hover .sub-support ul {
+    display: block;
+    margin: 10px;
+}
+ul li:hover .sub-resources {
+    display: block;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -6px;
+    background-color:#00bfff
+}
+ul li:hover .sub-resources ul {
     display: block;
     margin: 10px;
 }
