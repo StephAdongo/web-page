@@ -1,1 +1,1 @@
-This is a project on styling the webpage of a clothing-brand called Thunderbird.It contains js,css and html.I`ve added elements such as hover to help in creating a drop down menu that has  other elements in it...the js is used on onclick elements that displays information when clicked by the user.
+This is a project on styling the webpage of a clothing-brand called Thunderbird.It contains events like onclick and hover element.
