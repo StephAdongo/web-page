@@ -51,7 +51,7 @@ ul li:hover .sub-services {
     position: absolute;
     margin-top: 4px;
     margin-left: -6px;
-    background-color:#00bfff
+    background-color:#00bfff;
 }
 ul li:hover .sub-services ul {
     display: block;
@@ -62,7 +62,7 @@ ul li:hover .sub-support {
     position: absolute;
     margin-top: 4px;
     margin-left: -6px;
-    background-color:#00bfff
+    background-color:#00bfff;
 }
 ul li:hover .sub-support ul {
     display: block;
@@ -73,7 +73,7 @@ ul li:hover .sub-resources {
     position: absolute;
     margin-top: 4px;
     margin-left: -6px;
-    background-color:#00bfff
+    background-color:#00bfff;
 }
 ul li:hover .sub-resources ul {
     display: block;
