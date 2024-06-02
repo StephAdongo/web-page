@@ -6,6 +6,7 @@
     justify-content: space-around;
     flex-direction: column;
 }
+
 .hero{
     flex-direction: row;
     height: 50px;
@@ -15,10 +16,12 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
 a{
     text-decoration: none;
     color: white;
 }
+
 ul{
     display: flex;
     list-style-type:none;
@@ -57,6 +60,7 @@ ul li:hover .sub-services ul {
     display: block;
     margin: 10px;
 }
+
 ul li:hover .sub-support {
     display: block;
     position: absolute;
