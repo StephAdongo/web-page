@@ -4,9 +4,9 @@ This is a project on styling the landing page  of a clothing-brand called Thunde
 
 ## Languages 
 
-- html
-- css
-- javascript
+- Html
+- CSS
+- Javascript
 
 ## Functionalities
 
